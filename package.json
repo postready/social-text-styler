@@ -7,8 +7,14 @@
   "types": "src/index.d.ts",
   "type": "module",
   "bin": {
-    "social-text-styler": "./bin/cli.js"
+    "social-text-styler": "bin/cli.js"
   },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
   "exports": {
     ".": {
       "types": "./src/index.d.ts",

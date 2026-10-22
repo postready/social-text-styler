@@ -1,0 +1,42 @@
+{
+  "name": "social-text-styler",
+  "version": "1.0.0",
+  "description": "Zero-dependency Unicode text formatter for LinkedIn and X (Twitter): bold, italic, monospace, strikethrough, script, and bubble styles.",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "types": "src/index.d.ts",
+  "type": "module",
+  "bin": {
+    "social-text-styler": "./bin/cli.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "start": "node bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eco-null/social-text-styler.git"
+  },
+  "keywords": [
+    "unicode",
+    "linkedin-formatter",
+    "bold-text",
+    "italic-text",
+    "twitter-formatter",
+    "social-media",
+    "text-styler",
+    "cli"
+  ],
+  "author": "eco-null <emrecanozdal@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

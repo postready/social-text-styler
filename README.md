@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18.0.0-brightgreen.svg)](https://nodejs.org)
-[![Zero Dependencies](https://img.shields.io/badge/dependencies-0-success.svg)](https://github.com/eco-null/social-text-styler)
+[![Zero Dependencies](https://img.shields.io/badge/dependencies-0-success.svg)](https://github.com/postready/social-text-styler)
 [![Powered by PostReady](https://img.shields.io/badge/Powered%20by-PostReady.org-purple.svg)](https://postready.org/en/tools/linkedin-text-formatter)
 
 `social-text-styler` is a fast, lightweight library and CLI that transforms plain ASCII text into mathematical Unicode characters that render as **bold**, *italic*, `monospace`, strikethrough, bubble, and script text on platforms that don't support native Markdown (like LinkedIn and Twitter bios).

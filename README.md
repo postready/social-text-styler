@@ -12,25 +12,23 @@
 Part of the **[PostReady.org](https://postready.org)** open-source toolkit.
 
 ---
-
 ## Supported Styles
 
 | Style | Output Example |
 | :--- | :--- |
-| `bold` (default) | 𝗣𝗼𝘀𝘁𝗥𝗲𝗮𝗱𝘆 𝟮𝟬𝟮𝟲 |
-| `serifBold` | 𝐏𝐨𝐬𝐭𝐑𝐞𝐚𝐝𝐲 𝟐𝟎𝟐𝟔 |
-| `italic` | 𝘗𝘰𝘴𝘵𝘙𝘦𝘢𝘥𝘺 |
-| `serifItalic` | 𝑃𝑜𝑠𝑡𝑅𝑒𝑎𝑑𝑦 |
-| `boldItalic` | 𝙋𝙤𝙨𝙩𝙍𝙚𝙖𝙙𝙮 |
-| `monospace` | 𝙿𝚘𝚜𝚝𝚁𝚎𝚊𝚍𝚢 𝟸𝟶𝟸𝟼 |
+| `bold` (default) |   |
+| `serifBold` |   |
+| `italic` |  |
+| `serifItalic` |  |
+| `boldItalic` |  |
+| `monospace` |   |
 | `bubble` | ⓅⓞⓢⓣⓇⓔⓐⓓⓨ ⓪②⑥ |
-| `script` | 𝒫ℴ𝓈𝓉ℛℯ𝒶𝒹𝓎 |
-| `fraktur` | 𝔓𝔬𝔰𝔱ℜ𝔢𝔞𝔡𝔶 |
+| `script` | ℴℛℯ |
+| `fraktur` | ℜ |
 | `strikethrough` | P̶o̶s̶t̶R̶e̶a̶d̶y̶ |
 | `underline` | P̲o̲s̲t̲R̲e̲a̲d̲y̲ |
 
 ---
-
 ## Quick Start (CLI)
 
 Run instantly with `npx`:
@@ -59,7 +57,6 @@ npm install -g social-text-styler
 ```
 
 ---
-
 ## Programmatic API
 
 Install locally:
@@ -76,25 +73,23 @@ import { styleText } from 'social-text-styler';
 // Basic bold styling
 const boldHeadline = styleText('Launch Day is Here!', 'bold');
 console.log(boldHeadline);
-// Output: 𝗟𝗮𝘂𝗻𝗰𝗵 𝗗𝗮𝘆 𝗶𝘀 𝗛𝗲𝗿𝗲!
+// Output:    !
 
 // Smart URL preservation (preserves URLs from getting corrupted)
 const post = styleText('Check our live release at https://postready.org today!', 'bold', {
   preserveUrls: true
 });
 console.log(post);
-// Output: 𝗖𝗵𝗲𝗰𝗸 𝗼𝘂𝗿 𝗹𝗶𝘃𝗲 𝗿𝗲𝗹𝗲𝗮𝘀𝗲 𝗮𝘁 https://postready.org 𝘁𝗼𝗱𝗮𝘆!
+// Output:      https://postready.org !
 ```
 
 ---
-
 ## Web Version
 
 Prefer a browser GUI? Use our free interactive tool on PostReady:
-👉 **[PostReady LinkedIn Text Formatter](https://postready.org/en/tools/linkedin-text-formatter)**
+ **[PostReady LinkedIn Text Formatter](https://postready.org/en/tools/linkedin-text-formatter)**
 
 ---
-
 ## License
 
 MIT © [eco-null](https://github.com/eco-null)
